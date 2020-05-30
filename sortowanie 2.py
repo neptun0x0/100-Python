@@ -16,6 +16,7 @@ while x < 6:
         lista.append(z)
         print("Podane liczby to: ", lista)
         x += 1
+lista = [int(i) for i in lista]
 
 for i in range(len(lista)): #petla zew
     for j in range(len(lista)-1):
